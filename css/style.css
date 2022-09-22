@@ -87,6 +87,7 @@ footer {
 
 footer .icon-txt {
     text-align: center;
+    padding: 0 15px;
 }
 
 footer .icon {
@@ -98,9 +99,16 @@ footer .chevron-up {
     font-size: 10px;
     font-weight: 800;
     height: 8px;
-    padding: 0 15px;
 }
 
 footer .end-meeting {
+    padding: 0 10px;
+    background-color: #4a4a4a;
+    cursor: pointer;
+    color: red;
+    line-height: 80px;
+}
 
+.active {
+    color: #4bc800;
 }
